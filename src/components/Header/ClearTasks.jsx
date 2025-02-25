@@ -25,7 +25,7 @@ function ClearTasks({ onClear, disabled }) {
     <button
       ref={buttonRef}
       onClick={handleClick}
-      className={`bg-[#262626] text-base hover:bg-[#1b1b1b] mx-4 md:mx-auto md:w-[44rem] absolute left-0 right-0 m-auto xl:w-[50.5%] text-center py-2 mt-10 rounded-lg text-white flex items-center justify-center gap-2 ${
+      className={`bg-[#262626] text-base hover:bg-[#1b1b1b] mx-4 md:mx-auto md:w-[44rem] absolute left-0 right-0 m-auto xl:w-[50.5%] xl:mx-auto text-center py-2 mt-10 rounded-lg text-white flex items-center justify-center gap-2 ${
         disabled ? "cursor-not-allowed" : "cursor-pointer"
       }`}
       aria-label="Clear all tasks"
